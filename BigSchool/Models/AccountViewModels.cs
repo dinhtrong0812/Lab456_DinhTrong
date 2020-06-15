@@ -8,6 +8,7 @@ namespace BigSchool.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
     }
 
     public class ExternalLoginListViewModel     
